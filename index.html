@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./assets/stylesheet.css">
+</head>
+<header class="header">
+    <ul>
+        <li>Top Scores </li>
+        <li><a href="https://www.javascript.com/resources">Study Resource</a></li>
+    </ul>
+</header>
+<body> 
+    <div class="start-info">
+        <h2 id="start-title">JavaScript Quiz</h2>
+        <section id="start-info-text">
+            This is a quiz designed to test your knowledge of JavaScript! It is a multiple choice timed quiz. There is a total of 10 questions. You will have 60 seconds to complete this quiz. Click "Start Quiz" when you are ready to begin.
+        </section>
+    </div>
+    <!--start quiz button-->
+    <div class ="start-quiz"><button>Start Quiz</button></div>
+    <!--where quiz questions will show-->
+    <div class= "quiz-container">
+    <div class = "quiz-text">
+        <div class="time-display">Time Left:<div id= "timer"></div> </div>
+        <div id="score">Score:</div>
+        <div id="quiz-question">Question:</div>
+        <div class="quiz-choices"></div>
+        <div id="answer-a"></div>
+        <div id="answer-b"></div>
+        <div id="answer-c"></div>
+        <div id="answer-c"></div>
+        <div id="correct-incorrect"></div>
+        <button id="previous-q">Back</button>
+        <button id="next-q">Next</button>
+    </div>
+    </div>
+    <script src="assets\javascript.js"></script>
+</body>
+</html>

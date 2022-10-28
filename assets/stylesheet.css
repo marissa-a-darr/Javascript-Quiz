@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+* {
+    font-family: 'Share Tech', sans-serif;
+    margin: auto;
+}
+
+
+
+body {
+    background-color: #EAEAEA;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    margin-bottom: auto;
+    color: #3C4048;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #00ABB3;
+
+}
+a:link {
+    text-decoration: none;
+    color: #3C4048;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #3C4048;
+}
+
+.start-info {
+    text-align: center;
+    border: 2px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: black;
+    background-color:#B2B2B2;
+    color: #3C4048;
+    margin: 50px;
+}
+
+.start-info h2 {
+    color: black;
+}
+
+.start-quiz {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFE7CC;
+}
+
+.start-quiz button {
+    background-color: #00ABB3;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quiz-container {
+    background: #B2B2B2;
+    border: solid, black, 4px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+
+#quiz-question {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 15px
+}
+
+.time-display {
+    display: inline;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+#score {
+    display: inline;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#previous-q {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #00ABB3;
+
+}
+
+#next-q {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #00ABB3
+}
