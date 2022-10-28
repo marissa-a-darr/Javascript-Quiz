@@ -19,8 +19,6 @@ let questions = [
 ];
 
 
-// `${questions.questionNumberTwo.question.answer[1].B}`
-// console.log(questions[0].questionNumberOne.Answers[1].B)
 var quizInfo = document.querySelector(".start-info");
 var quizContent = document.querySelector(".quiz-container");
 var startButton = document.querySelector(".start-quiz");
@@ -34,11 +32,19 @@ var answerD = document.querySelector(".answer-d");
 var previousQuestion = document.querySelector(".previous-q");
 var nextQuestion = document.querySelector(".next-q");
 
+window.addEventListener("load", function(){
+  quizContent.style.visibility="hidden"
+  
+})
 
-window.onload = function beginQuiz () {
-    quizContent.setAttribute.style('none') = true;
-    
-}
+startButton.addEventListener("click", function() {
+  quizContent.style.visibility="visible"
+})
+
+startButton.addEventListener("click", function(){
+  quizInfo.style.visibility="hidden"
+})
+
 var timeLeft = 60;
 function timer() {
   timeInterval = setInterval(function () {
@@ -53,5 +59,5 @@ function timer() {
   }, 1000);
 }
 
-startButton.addEventListener("click", beginQuiz);
+
 startButton.addEventListener("click", timer);
