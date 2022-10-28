@@ -11,7 +11,7 @@ N/A
 
 ## Screenshot 
 
-![JavaScript Quiz](assets\quizscreenshotINPROGRESS.png)
+![JavaScript Quiz](./assets/quizscreenshotINPROGRESS.png)
 
 ## Built With
 -HTML
